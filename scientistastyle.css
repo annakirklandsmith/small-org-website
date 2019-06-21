@@ -1,0 +1,58 @@
+.mdc-typography {
+    --mdc-theme-primary: #7e57c2;
+    margin: 0rem 0rem 0rem 0rem ;
+    /* font-family: Raleway; */
+
+}
+
+.footer{
+    background-color: #9575cd;
+    padding: 1rem 1rem 1rem 1rem;
+    color: white;
+
+}
+
+.mdc-tab{
+    background-color: #ede7f6 !important; 
+    
+}
+
+.logostyle {
+    margin: 1rem 1rem 1rem 1rem;
+    width: 90%;
+}
+
+.midwaystyle{
+    background: linear-gradient(rgba(69,39,160, 0.5),rgba(69,39,160, 0.5)),
+    no-repeat center/cover url(images/landingimage.png); padding: 5vw; 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 1rem 1rem 1rem ;
+    height: 15vw;
+    font-size: calc(32px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+
+}
+
+.mdc-typography--headline4 {
+    margin: 1rem 1rem 1rem 1rem ;
+    color: #391b92;
+}
+.mdc-typography--headline5 {
+    margin: 1rem 1rem 1rem 1rem ;
+    color: #512Da8;
+}
+.mdc-typography--headline6 {
+    margin: 1rem 1rem 1rem 1rem ;
+    color: #9575cd;
+    
+}
+
+.mdc-typography--body1 {
+    margin: 1rem 1rem 1rem 1rem ;
+    
+}
+
+.mdc-typography--body2 {
+    margin: 1rem 1rem 1rem 1rem;
+}
