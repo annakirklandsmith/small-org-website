@@ -19,19 +19,25 @@
 
 .logostyle {
     margin: 1rem 1rem 1rem 1rem;
-    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: in-line;
 }
 
 .midwaystyle{
-    background: linear-gradient(rgba(69,39,160, 0.5),rgba(69,39,160, 0.5)),
+    background: linear-gradient(rgba(69,39,160, 0.3),rgba(69,39,160, 0.3)),
     no-repeat center/cover url(images/landingimage.png); padding: 5vw; 
     color: white;
     font-weight: bold;
     text-align: center;
-    margin: 1rem 1rem 1rem 1rem ;
-    height: 15vw;
+    margin: 0rem 0rem 0rem 0rem ;
     font-size: calc(32px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
 
+}
+
+.mdc-typography--headline2 {
+    margin: 1rem 1rem 1rem 1rem ;
+    color: #391b92;
 }
 
 .mdc-typography--headline4 {
@@ -56,3 +62,86 @@
 .mdc-typography--body2 {
     margin: 1rem 1rem 1rem 1rem;
 }
+
+.mdc-typography--overline {
+    margin: 5rem 5rem 5rem 5rem;
+    text-decoration: none;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+.my-image-list{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.mdc-image-list__item{
+    margin: 10px;
+    border-radius: 8px;
+    min-width: 200pt;
+}
+
+.mdc-image-list__image{
+    border-radius: 8px; 
+}  
+
+.mdc-image-list__label{
+    border-radius: 0 0 8px 8px;
+    margin: 0rem 0rem 0rem 0rem;
+    white-space: normal;
+    overflow: visible;
+    font-weight: bold;
+    color: #391b92; 
+}
+
+.adjust {
+    position: none;
+    border-radius: 0 0 8px 8px!important; 
+    padding: 10px !important;
+    height: auto !important;
+    /* background: linear-gradient(rgba(96, 125, 139, 0.3),rgba(96, 125, 125, 0.3)) !important; */
+    
+}
+
+.mdc-list-item{
+    padding: .25rem;
+    margin: 1rem 1rem 1rem 5rem ;
+    text-decoration: none !important;
+}
+
+.mdc-list-item__text{
+    font-size: 90%;
+    text-decoration: none !important;
+}
+
+.redcoat4 {
+    margin: 1rem 1rem 1rem 1rem ;
+    color: #673E49;
+}
+.redcoat5 {
+    margin: 1rem 1rem 1rem 1rem ;
+    color: #A54C5A;
+}
+.redcoat6 {
+    margin: 1rem 1rem 1rem 1rem ;
+    color: #CB5863;
+    
+}
+
+
+.spacemaker {
+    width: 100%;
+    margin: 1rem 0rem 1rem 0rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spacemakeritem {
+    width: 5em;
+}
+
