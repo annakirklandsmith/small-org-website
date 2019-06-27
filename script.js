@@ -81,71 +81,50 @@ document.addEventListener('DOMContentLoaded', function () {
                 </span>
                 <span class="mdc-tab__ripple"></span>
             </button>
-
-
-                
-                
-                </div>
+               </div>
             </div>
         </div>
     </div>
     <div class="mdc-top-app-bar--fixed-adjust"></div>`
     
     const footer = document.getElementById('footerDiv');
-    footer.innerHTML = 
-
-
-    `<div class="footer">
-    <p tabindex="0" class="mdc-typography--body1" >Data Scientista Society</p>
-
-    <div>
-    <a class="mdc-typography--body1" href="https://www.meetup.com/DataScientistaSociety/" target='blank'>
-        <img src="images/social-media-icons/meetup.png" alt="Meetup" />
-    </a>
-
-    <a  class="mdc-typography--body1" href="https://www.linkedin.com/company/data-scientista-society" target='blank'>
-        <img src="images/social-media-icons/linkedin.png" alt="Linkedin" />
-    </a>
-
-    <a class="mdc-typography--body1" href="mailto:datascientistasociety@gmail.com?subject=Message from website" target='blank'>
-        <img src="images/social-media-icons/email.png" alt="Mail" />
-    </a>
-
-</a>
-</div>
-
-
-    <p tabindex="0" class="mdc-typography--body1 white">
-
-    Email: <a class="mdc-typography--body1 white" href="mailto:datascientistasociety@gmail.com">datascientistasociety@gmail.com</a></p>
-
-        
-
-
-                    
 
 
 <!-- https://mycyberuniverse.com/add-social-media-buttons-to-your-website.html -->
 
 
-    
+    footer.innerHTML = 
 
-       
+    `<div class="footer">
 
-    
-    
-    <div>
-    <a class="mdc-typography--body1 white" href="index.html" class="">Home</a>
-    <a class="mdc-typography--body1 white" href="programs.html" class="">Programs</a>
-    <a class="mdc-typography--body1 white" href="values.html" class="">Values</a>
-    <a class="mdc-typography--body1 white" href="ourstory.html" class="">Our Story</a>
-    <a class="mdc-typography--body1 white" href="aboutus.html" class="">About Us</a>
-    <a class="mdc-typography--body1 white" href="allies.html" class="">Allies</a>
-    <a class="mdc-typography--body1 white" href="redcoat.html" class="">Redcoat</a>
-    <a class="mdc-typography--body1 white" href="futurefair.html" class="">Future Fair</a>
+    <div class="spacemaker">
+
+    <span>
+    <a class="mdc-typography--body1" href="scrapbook.html" target='blank'>
+        <img src="images/social-media-icons/map.png" alt="sitemap" />
+    </a>
+    </span>
+
+    <span>
+    <a class="mdc-typography--body1" href="https://www.meetup.com/DataScientistaSociety/" target='blank'>
+        <img src="images/social-media-icons/meetup.png" alt="Meetup" />
+    </a>
+    </span>
+
+    <span>
+    <a  class="mdc-typography--body1" href="https://www.linkedin.com/company/data-scientista-society" target='blank'>
+        <img src="images/social-media-icons/linkedin.png" alt="Linkedin" />
+    </a>
+    </span>
+
+    <span>
+    <a class="mdc-typography--body1" href="mailto:datascientistasociety@gmail.com?subject=Message from website" target='blank'>
+        <img src="images/social-media-icons/email.png" alt="Mail" />
+    </a>
+    </span>
+
     </div>
-    `
-
+    </div>`
 
 
 })
