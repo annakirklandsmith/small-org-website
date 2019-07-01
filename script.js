@@ -118,6 +118,12 @@ document.addEventListener('DOMContentLoaded', function () {
     </span>
 
     <span>
+    <a  class="mdc-typography--body1" href="https://www.linkedin.com/groups/8496042/" target='blank'>
+        <img src="images/social-media-icons/groups.png" alt="Linkedin groups" />
+    </a>
+    </span>
+
+    <span>
     <a class="mdc-typography--body1" href="mailto:datascientistasociety@gmail.com?subject=Message from website" target='blank'>
         <img src="images/social-media-icons/email.png" alt="Mail" />
     </a>
