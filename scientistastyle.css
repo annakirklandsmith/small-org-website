@@ -1,7 +1,7 @@
 .mdc-typography {
     --mdc-theme-primary: #7e57c2;
     margin: 0rem 0rem 0rem 0rem ;
-    /* font-family: Raleway; */
+    font-family: 'Crimson Text';
 
 }
 
@@ -14,6 +14,7 @@
 
 .mdc-tab{
     background-color: #ede7f6 !important; 
+    font-family: 'Crimson Text';
     
 }
 
@@ -39,40 +40,60 @@
     margin: 1rem 1rem 1rem 1rem ;
     color: #391b92;
     text-align: center;
+    font-family: 'Crimson Text';
+}
+
+.mdc-typography--headline3 {
+    margin: 1rem 1rem 1rem 1rem ;
+    color: #391b92;
+    text-align: center;
+    font-family: 'Crimson Text';
 }
 
 .mdc-typography--headline4 {
     margin: 1rem 1rem 1rem 1rem ;
     color: #391b92;
+    font-family: 'Crimson Text';
 }
 .mdc-typography--headline5 {
     margin: 1rem 1rem 1rem 1rem ;
     color: #512Da8;
+    font-family: 'Crimson Text';
 }
 .mdc-typography--headline6 {
     margin: 1rem 1rem 1rem 1rem ;
     color: #9575cd;
+    font-family: 'Crimson Text';
     
 }
 
 .mdc-typography--body1 {
     margin: 1rem 1rem 1rem 1rem ;
+    font-family: 'Crimson Text';
     
 }
 
 .mdc-typography--body2 {
     margin: 1rem 1rem 1rem 1rem;
+    font-family: 'Crimson Text';
 }
 
 .mdc-typography--overline {
     margin: 5rem 5rem 5rem 5rem;
     text-decoration: none;
+    font-family: 'Crimson Text';
 }
 
 .italic {
     font-style: italic;
 }
 
+
+.mdc-card{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
 
 .my-image-list{
     list-style-type: none;
@@ -83,7 +104,7 @@
 .mdc-image-list__item{
     margin: 10px;
     border-radius: 8px;
-    min-width: 200pt;
+    min-width: 150pt;
 }
 
 .mdc-image-list__image{
@@ -97,6 +118,7 @@
     overflow: visible;
     font-weight: bold;
     color: #391b92; 
+    font-family: 'Crimson Text';
 }
 
 .adjust {
@@ -112,6 +134,7 @@
     padding: .25rem;
     margin: 0rem 0rem 0rem 3rem ;
     text-decoration: none !important;
+    font-family: 'Crimson Text';
 }
 
 
@@ -134,14 +157,17 @@
 .redcoat4 {
     margin: 1rem 1rem 1rem 1rem ;
     color: #673E49;
+    font-family: 'Crimson Text';
 }
 .redcoat5 {
     margin: 1rem 1rem 1rem 1rem ;
     color: #A54C5A;
+    font-family: 'Crimson Text';
 }
 .redcoat6 {
     margin: 1rem 1rem 1rem 1rem ;
     color: #CB5863;
+    font-family: 'Crimson Text';
     
 }
 
@@ -158,3 +184,10 @@
     width: 5em;
 }
 
+.spacemaker2 {
+    width: 100%;
+    margin: 0rem 0rem 0rem 0rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
