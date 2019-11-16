@@ -9,7 +9,6 @@
     background-color: #9575cd;
     padding: 1rem 1rem 1rem 1rem;
     color: white;
-
 }
 
 .mdc-tab{
@@ -59,11 +58,13 @@
     margin: 1rem 1rem 1rem 1rem ;
     color: #512Da8;
     font-family: 'Crimson Text';
+    text-decoration: none !important;
 }
 .mdc-typography--headline6 {
     margin: 1rem 1rem 1rem 1rem ;
     color: #9575cd;
     font-family: 'Crimson Text';
+    
     
 }
 
@@ -80,7 +81,7 @@
 
 .mdc-typography--overline {
     margin: 5rem 5rem 5rem 5rem;
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: 'Crimson Text';
 }
 
@@ -190,4 +191,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.link {
+    color: #512Da8;
+    text-decoration: none !important;
+}
+
+.linkr {
+    color: #512Da8;
+    text-decoration: none !important;
 }
